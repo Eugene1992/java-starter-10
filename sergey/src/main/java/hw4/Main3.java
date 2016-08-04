@@ -11,8 +11,10 @@ public class Main3 {
         double result1;
         double result2;
         D = b * b - 4 * a * c;
-        result1 = (-b + Math.sqrt(D)) / (2 * a);
-        result2 = (b + Math.sqrt(D)) / (2 * a);
+        if(D > 0) {
+            result1 = (-b + Math.sqrt(D)) / (2 * a);
+            result2 = (b + Math.sqrt(D)) / (2 * a);
+        }
    if(D < 0){
        System.out.print("Данное квадратное уравнение не имеет корней.");
 
