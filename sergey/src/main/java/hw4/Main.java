@@ -2,7 +2,6 @@ package hw4;
 public class Main {
     public static void main(String[] args) {
 
-
         double a = 11.45;
         double b = 8.45;
         double a1;
@@ -26,8 +25,6 @@ public class Main {
         if (a1 == b1) {
             System.out.print("Число a и b одинаково близки к 10.");
         }
-
-
     }
 }
 
