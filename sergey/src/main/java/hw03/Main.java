@@ -9,12 +9,14 @@ public class Main {
         int r5 = r4 / 2;
         int r6 = r5 / 2;
 
+
         int f1 = r1 * 2;
         int f2 = r2 * 2;
         int f3 = r3 * 2;
         int f4 = r4 * 2;
         int f5 = r5 * 2;
         int f6 = r6 * 2;
+
 
         int number1 = c - f1;
         int number2 = r1 - f2;
