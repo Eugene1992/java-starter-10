@@ -1,8 +1,4 @@
 package lesson8416;
-
-/**
- * Created by Student on 8/4/2016.
- */
 public class lesson {
     public static void main(String[] args) {
         int number = 25;
@@ -15,12 +11,5 @@ public class lesson {
         if(number == 0){
             System.out.println("Ноль не относится к четным и нечетным");
         }
-
-
-
-
-
-
-
         }
     }
