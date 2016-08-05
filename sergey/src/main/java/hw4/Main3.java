@@ -8,17 +8,17 @@ public class Main3 {
         int b = 10;
         int c = 13;
         int D;
-        double result1;
-        double result2;
+        double result1 = 0;
+        double result2 = 0;
         D = b * b - 4 * a * c;
         if(D > 0) {
-            result1 = (-b + Math.sqrt(D)) / (2 * a);
-            result2 = (b + Math.sqrt(D)) / (2 * a);
+            result1 = ( -b + Math.sqrt(D) ) / ( 2 * a );
+            result2 = ( -b + Math.sqrt(D) ) / ( 2 * a );
+            System.out.println(result1 + "," + result2);
         }
    if(D < 0){
        System.out.print("Данное квадратное уравнение не имеет корней.");
 
    }
-        System.out.println(result1 + "," + result2);
     }
 }
