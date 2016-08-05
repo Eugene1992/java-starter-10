@@ -1,7 +1,7 @@
 package hw03;
 public class Main {
     public static void main(String args[]) {
-        int c = 123;
+        int c = 1230;
         int c1 = 1;
         int result = 0;
         String res = "";
