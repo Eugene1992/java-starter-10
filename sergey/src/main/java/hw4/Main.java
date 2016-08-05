@@ -1,9 +1,10 @@
 package hw4;
+
 public class Main {
     public static void main(String[] args) {
 
         double a = 11.45;
-        double b = 8.45;
+        double b = 11.45;
         double a1;
         double b1;
         if (a < 10) {
@@ -17,13 +18,19 @@ public class Main {
         } else {
             b1 = b - 10;
         }
-        if (a1 > b1) {
-            System.out.print("Число b ближе к 10.");
-        } else {
-            System.out.print("Число a ближе к 10.");
-        }
         if (a1 == b1) {
             System.out.print("Число a и b одинаково близки к 10.");
+            if (a1 > b1) {
+                System.out.print("Число b ближе к 10.");
+                if (a1 == b1) {
+                    System.out.print("Число a и b одинаково близки к 10.");
+                }
+            } else {
+                System.out.print("Число a ближе к 10.");
+                if (a1 == b1) {
+                    System.out.print("Число a и b одинаково близки к 10.");
+                }
+            }
         }
     }
 }
