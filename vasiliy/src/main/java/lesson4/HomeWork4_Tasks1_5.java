@@ -10,7 +10,6 @@ public class HomeWork4_Tasks1_5 {
         консоли целое число, чётным либо нечётным.
         */
         int a = 5;
-
         if ((a % 2) == 0) {
             System.out.println("pair number = " + a);
         } else {
@@ -72,7 +71,7 @@ public class HomeWork4_Tasks1_5 {
         }
         /*Задание 5
         Задано четыре переменных, найти и вывести на экран вторую по величине.*/
-        int g = 1;
+        int g = 4;
         int h = 2;
         int i = 3;
         int j = 4;
@@ -108,6 +107,9 @@ public class HomeWork4_Tasks1_5 {
             } else if ((i > g) & (i > h)) {
                 System.out.println("The second highest number is i = " + i);
             }
+        } else if ((g==h)&(g==i)&(g==j)){
+            System.out.println("No second highest number, all numbers are equal = " + i);
+
         }
     }
 }
