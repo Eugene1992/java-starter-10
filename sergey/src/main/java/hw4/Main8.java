@@ -29,20 +29,23 @@ public class Main8 {
             n = c / 16;
             d = c % 16;
            switch(d){
-               case 1:
-                   System.out.print("" + n);
+               case 10:
+                   System.out.print("A" + n);
                    break;
-                    case 5:
-                   System.out.print("" + n);
+                    case 11:
+                   System.out.print("B" + n);
                    break;
-                    case 2:
-                   System.out.print("" + n);
+                    case 12:
+                   System.out.print("C" + n);
                    break;
-                    case 3:
-                   System.out.print("" + n);
+                    case 13:
+                   System.out.print("D" + n);
                    break;
-                     case 4:
-                   System.out.print("" + n);
+                     case 14:
+                   System.out.print("E" + n);
+                   break;
+               case 15:
+                   System.out.print("F" + n);
                    break;
 
 

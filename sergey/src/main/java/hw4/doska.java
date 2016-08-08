@@ -16,8 +16,7 @@ public class doska {
                         if(ver1 < 5) {
                             ver++;
                             System.out.print("Ж Ж Ж Ж Ж ");
-                        }
-                         else{
+                        }else{
                              if(gor1 < 5){
                                 gor1++;
                                 System.out.print("- - - - - ");

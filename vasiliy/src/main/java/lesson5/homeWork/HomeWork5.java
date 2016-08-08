@@ -12,7 +12,7 @@ public class HomeWork5 {
         int i3;
         int counter = 0;
 
-        while (counter < 18) {
+        while (counter < 4) {
 
             i3 = i1 + i2;
             i1 = i2;
