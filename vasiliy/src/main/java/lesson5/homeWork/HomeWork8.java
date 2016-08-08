@@ -6,6 +6,10 @@ import java.util.Scanner;
  */
 public class HomeWork8 {
     public static void main(String[] args) {
+        numbers();
+    }
+
+    static void numbers() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the number n");
         int n = scan.nextInt();
