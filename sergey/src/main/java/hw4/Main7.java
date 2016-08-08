@@ -19,16 +19,15 @@ public class Main7 {
         i++;
         ++i;
         System.out.print(i + " ");
-    }*/
-    /*do{
-        System.out.print(i1 + " ");
-            c++;
-            i1++;
-            ++i1;
-        } while(c < 55);
-       */
+    }
 
-    /*while(c1 > 0){
+    do {
+        System.out.print(i1 + " ");
+        i1 = i1 + 2;
+        c++;
+    } while(c < 55);
+
+    while(c1 > 0){
         c1 = c1 - 5;
         System.out.print(c1 + " ");
     }
@@ -37,7 +36,7 @@ public class Main7 {
         System.out.print(i3 + " ");
         i3 = i3 * 2;
         c2++;
-    } while(c2 < 20);*/
+    } while(c2 < 55);
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         for(int i4 = 0; i4 < 10;){
 
@@ -50,5 +49,5 @@ public class Main7 {
         //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
     }
-    }
+}
 
