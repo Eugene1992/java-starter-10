@@ -10,7 +10,7 @@ public class Main7 {
         int c1 = 90;
         int c2 = 20;
         int i3 = 2;
-        int b = 1;
+        int b = 0;
         int a = 1;
         int n;
 
