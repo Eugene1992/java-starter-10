@@ -1,30 +1,32 @@
 package hw4;
 public class Main {
     public static void main(String[] args) {
+nearNumber(4, 15);
 
-        double a = 11.45;
-        double b = 8.45;
-        double a1;
-        double b1;
-        if (a < 10) {
-            a1 = 10 - a;
+    }
+    static void nearNumber(int start, int end){
+        int start1;
+        int end1;
+        if (start < 10) {
+            start1 = 10 - start;
 
         } else {
-            a1 = a - 10;
+            start1 = start - 10;
         }
-        if (b < 10) {
-            b1 = 10 - b;
+        if (end < 10) {
+            end1 = 10 - end;
         } else {
-            b1 = b - 10;
+            end1 = end - 10;
         }
-        if (a1 > b1) {
+        if (start1 > end1) {
             System.out.print("Число b ближе к 10.");
         } else {
             System.out.print("Число a ближе к 10.");
         }
-        if (a1 == b1) {
+        if (start1 == end1) {
             System.out.print("Число a и b одинаково близки к 10.");
         }
+
     }
 }
 

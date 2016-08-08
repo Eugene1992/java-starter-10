@@ -4,21 +4,24 @@ package hw4;
             либо сообщать, что корней нет.*/
 public class Main3 {
     public static void main(String[] args) {
-        int a = 12;
-        int b = 10;
-        int c = 13;
-        int D;
+
+        qudrNumber(4, 12, 14);
+    }
+
+
+    static void qudrNumber(int a, int b, int c){
+        int d;
         double result1 = 0;
         double result2 = 0;
-        D = b * b - 4 * a * c;
-        if(D > 0) {
-            result1 = ( -b + Math.sqrt(D) ) / ( 2 * a );
-            result2 = ( -b + Math.sqrt(D) ) / ( 2 * a );
+        d = b * b - 4 * a * c;
+        if (d > 0) {
+            result1 = (-b + Math.sqrt(d)) / (2 * a);
+            result2 = (-b + Math.sqrt(d)) / (2 * a);
             System.out.println(result1 + "," + result2);
         }
-   if(D < 0){
-       System.out.print("Данное квадратное уравнение не имеет корней.");
+        if (d < 0) {
+            System.out.print("Данное квадратное уравнение не имеет корней.");
 
-   }
+        }
     }
 }
