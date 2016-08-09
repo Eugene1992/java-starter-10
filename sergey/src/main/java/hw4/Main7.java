@@ -84,7 +84,7 @@ public class Main7 {
         } while(c2 < 55);
 
     }
-    static void Fiabachi() {
+    static void getFiabachi() {
         int n;
         for(int i4 = 0; i4 < 10;){
             i4++;
