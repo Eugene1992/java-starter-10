@@ -49,7 +49,7 @@ public class Main7 {
 
     }
     static void sequenceOfRange(int i) {
-        for(i < 9996;){
+        while(i < 9996){
             i++;
             i++;
             ++i;
