@@ -8,9 +8,11 @@ public class Randomize {
         int full = 999999;
         int count = 0;
         for (int i = 0; i < 999999; i++) {
-        full = full / 13;
-
-        }
+        full = full / 100000 % 10;
+        full = full / 10000 % 10;
+        full = full / 1000 % 10;
+        full = full / 100 % 10;
+        full = full / 10% 10;
         return count;
     }
 }
