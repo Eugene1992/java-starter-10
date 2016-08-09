@@ -37,7 +37,6 @@ public class Lesson7_2 {
         if (c==13){
             counter++;
         }
-
         return counter;
     }
 }
