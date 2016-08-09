@@ -5,11 +5,11 @@ package hw4;
 public class Main3 {
     public static void main(String[] args) {
 
-        qudrNumber(4, 12, 14);
+        getQudrNumber(4, 12, 14);
     }
 
 
-    static void qudrNumber(int a, int b, int c){
+    static void getQudrNumber(int a, int b, int c){
         int d;
         double result1 = 0;
         double result2 = 0;
