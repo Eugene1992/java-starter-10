@@ -48,5 +48,53 @@ public class Main7 {
         //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
     }
+    static void sequenceOfRange(int i) {
+        while(i < 9996){
+            i++;
+            i++;
+            ++i;
+            System.out.print(i + " ");
+        }
+        }
+
+
+    static void secondOfRange(){
+        int c1 = 90;
+        int i1 = 1;
+        int c = 0;
+        do {
+            System.out.print(i1 + " ");
+            i1 = i1 + 2;
+            c++;
+        } while(c < 55);
+
+        while(c1 > 0){
+            c1 = c1 - 5;
+            System.out.print(c1 + " ");
+        }
+
+    }
+    static void thirdOfRange() {
+        int i3 = 2;
+        int c2 = 20;
+        do{
+            System.out.print(i3 + " ");
+            i3 = i3 * 2;
+            c2++;
+        } while(c2 < 55);
+
+    }
+    static void getFiabachi() {
+        int n;
+        for(int i4 = 0; i4 < 10;){
+            i4++;
+            int b = 0;
+            int a = 1;
+            n = a + b;
+            a = b;
+            b = n;
+            System.out.print(n + " ");
+        }
+    }
 }
 
