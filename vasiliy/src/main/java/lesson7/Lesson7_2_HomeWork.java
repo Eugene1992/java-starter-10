@@ -3,7 +3,7 @@ package lesson7;
 /**
  * Created by Advantis on 09.08.2016.
  */
-public class Lesson7_2 {
+public class Lesson7_2_HomeWork {
     public static void main(String[] args) {
         System.out.println(get13());
     }
