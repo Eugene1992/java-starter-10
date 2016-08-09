@@ -48,9 +48,8 @@ public class Main7 {
         //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
     }
-    static void sequenceOfRange() {
+    static void sequenceOfRange(int i) {
         for(i < 9996;){
-            int i = 1000;
             i++;
             i++;
             ++i;
@@ -85,7 +84,7 @@ public class Main7 {
         } while(c2 < 55);
 
     }
-    static void fourthOfRange() {
+    static void Fiabachi() {
         int n;
         for(int i4 = 0; i4 < 10;){
             i4++;
