@@ -1,5 +1,4 @@
 package lesson;
-
 public class Randomize {
     public static void main(String args[]) {
         /*getRandom();*/
@@ -7,7 +6,7 @@ public class Randomize {
     }
 
     static int get13From999999() {
-        int full = 0;
+        int full = 131113;
         int full1 = 0;
         int full2 = 0;
         int full3 = 0;
@@ -16,14 +15,12 @@ public class Randomize {
         int full6 = 0;
         int count = 0;
         int over = 0;
-        for (int i = 0; i < 999999; ) {
-            full++;
-            full1 = full / 100000 % 10;
-            full2 = full / 10000 % 10;
-            full3 = full / 1000 % 10;
-            full4 = full / 100 % 10;
-            full5 = full / 10 % 10;
-            full6 = full % 10;
+        full1 = full / 100000 % 10;
+        full2 = full / 10000 % 10;
+        full3 = full / 1000 % 10;
+        full4 = full / 100 % 10;
+        full5 = full / 10 % 10;
+        full6 = full % 10;
             if (full1 == 1) {
                 if (full2 == 3) {
                     ++over;
@@ -38,25 +35,25 @@ public class Randomize {
                 if (full4 == 3) {
                     ++over;
                 }
-                if (full3 == 1) {
-                    if (full4 == 3) {
+                if (full4 == 1) {
+                    if (full5 == 3) {
                         ++over;
-                    }
-                    if (full4 == 1) {
-                        if (full5 == 3) {
-                            ++over;
-                        }
                     }
                     if (full5 == 1) {
                         if (full6 == 3) {
                             ++over;
                         }
                     }
+                    }
 
-                    System.out.print(over);
+                    System.out.print(full1);
+                    System.out.print(full2);
+                    System.out.print(full3);
+                    System.out.print(full4);
+                    System.out.print(full5);
+                    System.out.println(full6);
+                     System.out.print(over);
                 }
-            }
-        }
         return over;
     }
 
