@@ -1,7 +1,7 @@
 package cw08;
 
 public class ArraysExample {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int[] arr = new int[5];
         arr[0] = 5;
         arr[1] = 15;
@@ -9,7 +9,8 @@ public class ArraysExample {
         arr[3] = -3;
         arr[4] = -46;
 
-        int max = getSumOfArray(arr);
+        int max1 = getSumOfArray(arr);
+        int max2 = getSumOfArray2(2, 5, 6, 43);
     }
 
     static int getMaxFromFour(int a, int b, int c, int d){
@@ -20,6 +21,14 @@ public class ArraysExample {
     }
 
     static int getSumOfArray(int[] arr) {
+        int sum = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    static int getSumOfArray2(int... arr) {
         int sum = arr[0];
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
