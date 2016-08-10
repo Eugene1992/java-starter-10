@@ -6,7 +6,7 @@ public class Randomize {
     }
 
     static int get13From999999() {
-        int full = 131113;
+        int full = 133713;
         int full1 = 0;
         int full2 = 0;
         int full3 = 0;
@@ -52,7 +52,7 @@ public class Randomize {
                     System.out.print(full4);
                     System.out.print(full5);
                     System.out.println(full6);
-                     System.out.print(over);
+                    System.out.print(over);
                 }
         return over;
     }
