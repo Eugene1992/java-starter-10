@@ -15,14 +15,19 @@ public class Array {
         }
         return sum;
     }
+
     static int getMax(int[] arr){
-        int max = arr[0];
-        for(int i = arr.length - 1; i >= 0; i--){
-            if( max < arr[i]){
-            max = arr[i];
+        int max = 0;
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (max > arr[i]) {
+                max = arr[i];
             }
         }
         return max;
+    }
+
+    static int getAverageOfArray(int[] arr) {
+        return getSum(arr) / arr.length;
     }
 
 }
